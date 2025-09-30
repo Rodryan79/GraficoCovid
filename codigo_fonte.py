@@ -1,4 +1,3 @@
-"""codigo_fonte.ipynb
 
 import pandas as pd
 import plotly.express as px
@@ -38,5 +37,6 @@ st.plotly_chart(fig, use_container_width=True)
 #Fontes
 
 st.caption("Os dados foram obtidos a partir do site: https://github.com/wcota/covid19br/blob/master/cases-brazil-states.csv")
+
 
 

@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-#streamlit run Igrafics_Covid19.py
+streamlit run Igrafics_Covid19.py
 
 #ler o dataset
 df = pd.read_csv("https://raw.githubusercontent.com/wcota/covid19br/refs/heads/master/cases-brazil-states.csv")
@@ -34,4 +34,5 @@ st.write("Nessa aplicação, o usuário tem a opção de escolher o estado e o t
 st.plotly_chart(fig, use_container_width=True)
 
 #Fontes
+
 st.caption("Os dados foram obtidos a partir do site: https://github.com/wcota/covid19br/blob/master/cases-brazil-states.csv")
